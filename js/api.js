@@ -12,6 +12,10 @@ $( document ).ready(function() {
             $('#img2').attr('src', data.art.week.all[1].pic_medium);
             $('#img3').attr('src', data.art.week.all[2].pic_medium);
 
+            $('#card-link1').attr('href', data.art.week.all[0].url);
+            $('#card-link2').attr('href', data.art.week.all[1].url);
+            $('#card-link3').attr('href', data.art.week.all[2].url);
+
         }
     );
 });
